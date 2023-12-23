@@ -1,0 +1,143 @@
+.msg-prop{
+    /* trbl */
+    width: 100%;
+    max-height: 500px;
+    overflow: visible !important;
+    /*padding: 15px 27px 0px 27px;*/
+
+    .msg-header{
+        position: sticky;
+    }
+    #m-header{
+        padding: 15px 27px 0px 27px;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+}
+
+.m-prop{
+    width: 20rem;
+    border: 2px solid #FF8F0B;
+    border-radius: 20px;
+    overflow-x: hidden;
+}
+
+
+.msgs-contner{ 
+    max-height: 400px;
+    overflow-y: scroll;
+    border-radius: 20px;
+
+    .prop{
+        width: 100%;
+    }
+
+    &::-webkit-scrollbar{
+        width: 5px;
+        border-radius: 20px;
+        background-color: #eeeeee;
+    }
+
+    &::-webkit-scrollbar-thumb{
+        border-radius: 20px;
+        background-color: #f3ba79;
+    }
+
+}
+
+
+
+/* Message Button - View More */
+
+.m-btn-container {
+    margin-top: 1rem;
+    text-align: center;
+
+    #m-btn-prop {
+        background-color: #FF8F0B;
+        border: 0px ;
+        border-radius: 30px;
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 7px 11px 7px 11px;
+    }
+}
+
+/* GENERAL PROPERTIES OF EACH MESSAGE */
+
+.msg-unopened{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.msg-content-prop{
+    margin-left: 0.625rem;
+}
+
+.msg-details{
+    display: flex;
+}
+
+
+/* Message Status : OPENED */
+
+.msg-proper-op{
+    padding: 5px 27px 5px 27px;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.m-name-op {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.m-time-op{
+    font-size: 12px;
+}
+
+.m-content-op{
+    color: #828282;
+    overflow: hidden;
+    width: 90%;
+    height: 50px;
+    font-size: 12px;
+    text-align: justify;
+    font-weight: 700;
+
+}
+
+/* Message Status : UNOPENED */
+
+.msg-proper-uop{
+    padding: 5px 27px 5px 27px;
+    background-color: #fef4e7e5;
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.m-name-uop {
+    color: #575757;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.m-time-uop{
+    color:  #575757;;
+    font-size: 12px;
+}
+
+.m-content-uop{
+    color: #828282;
+    overflow: hidden;
+    width: 90%;
+    height: 50px;
+    font-size: 12px;
+    text-align: justify;
+    font-weight: 700;
+
+}

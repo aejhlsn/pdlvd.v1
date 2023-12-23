@@ -1,0 +1,56 @@
+.item-frame-prop{
+    display: grid;
+    width: 90px;
+    height: 90px;
+    grid-column: repeat(7.5px, 12);
+    grid-column: repeat(7.5px, 12);
+    grid-auto-columns: 7.5px;
+    grid-auto-rows: 7.5px;
+
+    padding-bottom: 5rem;
+    
+}
+
+.item-1{
+    grid-column: 1 / 12;
+    grid-row: 1 / 12;
+    background-color: orange;  
+    border-radius: 25px; 
+    text-align: center;
+    
+}
+
+.item-feature{
+    background-color: gray;
+    grid-column: 3 / 14;
+    grid-row: 9 / 14;
+    border-radius: 50.5px;
+    text-align: center;
+}
+
+.item-w-lbl{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+
+    margin-top: 1.25rem;
+    margin-bottom: 1.25;
+
+    align-items: center;
+    align-content: justify;
+}
+
+#prod-name{
+    padding-top: 0.9rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#prod-price{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #D53503;
+
+}

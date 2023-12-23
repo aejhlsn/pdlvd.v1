@@ -1,0 +1,21 @@
+{
+  "name": "puds-blvd-v1",
+  "version": "1.0.0",
+  "description": "Puds Boulevard - Project I",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "puds-blvd",
+    "puds",
+    "pd"
+  ],
+  "author": "elaugusto",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "react-cookie": "^6.1.1",
+    "react-router-dom": "^6.18.0"
+  }
+}

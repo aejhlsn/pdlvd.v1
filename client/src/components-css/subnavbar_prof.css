@@ -1,0 +1,25 @@
+.nav-prop-2{
+    background-color: #FFE5C6E5;
+    border-radius: 30px;
+    height: 2.65rem;
+    margin-left: auto;
+
+    .navi-group{
+        display: flex; 
+        font-weight: 700;
+        margin-left: auto; 
+        margin-right: 2.30rem;
+    
+    }
+
+
+}
+
+.btn-c-schm{
+    color: #FF8A00;
+    text-decoration: none;
+
+    &:active{
+        color: #FFFFFF;
+    }
+}
